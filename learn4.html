@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Surname: <input type="text" name="mySurname">
+        </div>
+        <br>
+        <div>
+            Gender: male <input type="radio" name="myGender" > female <input type="radio" name="myGender"> other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            DOB: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Are you married: <input type="checkbox" name="myMarried">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit now">
+        </div>
+        <br>
+        <div>
+            feedback: <textarea name="myFeedback" cols="130" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            cars: <select name="myCar" id="">
+                <option value="in">Indica</option>
+                <option value="sw">swift</option>
+            </select>
+        </div>
+        </form>
+</body>
+</html>
